@@ -15,7 +15,7 @@ Simple utility for managing snippets of text within vim. Users can add, edit, an
 
 ### Install Details:
 
-Place the script in ~/.vim/plugin & place the text doc in ~/.vim/doc and restart vim.
+Place the script in ~/.vim/plugin & place the text doc in ~/.vim/doc. Restart vim.
 
 OR
 
