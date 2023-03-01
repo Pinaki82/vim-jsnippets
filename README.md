@@ -65,4 +65,6 @@ For example:
 
 `~/vimfiles/snippets`
 
+You'll find a few snippets and templates here: [Tulu-C-IDE](https://github.com/Pinaki82/Tulu-C-IDE)
+
 Licence: https://www.vim.org/scripts/script.php?script_id=2152

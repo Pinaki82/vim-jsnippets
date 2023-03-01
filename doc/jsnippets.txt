@@ -26,6 +26,9 @@ Create a directory $HOME/vimfiles/snippets.
 
 Create separate sub-directories for different file types (c, cpp etc.).
 
+You'll find a few snippets and templates here:
+https://github.com/Pinaki82/Tulu-C-IDE
+
 			*jsnippets*      *jsnippets-plugin*
 	Contents:
 
