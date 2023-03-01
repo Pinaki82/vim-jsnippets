@@ -1,0 +1,148 @@
+*jsnippets.txt*                        |jsnippets|  |jsnippets-plugin|
+    Simple utility for managing snippets of text within vim.
+    Users can add, edit, and delete snippets within vim. Command
+    completion is supported in all places that make sense.
+    A menu is also added at "Plugin/Snippets" (Plugin/Snippets).
+
+    Based on "snippets.vim" v0.2 by Jeremy Cantrell.
+    https://www.vim.org/scripts/script.php?script_id=2152
+
+
+Install Details:
+Place the script in ~/.vim/plugin,
+& place the text doc in ~/.vim/doc and restart vim.
+
+OR
+
+With vim-plug:
+
+Plug 'https://github.com/Pinaki82/vim-jsnippets.git'
+:PlugInstall
+
+			*jsnippets*      *jsnippets-plugin*
+	Contents:
+
+		Menu...................|jsnippets-menu|
+
+		Commands...............|jsnippets-Commands|
+				                          |Command_0|
+                                  |Command_1|
+                                  |Command_2|
+                                  |Command_3|
+                                  |Command_4|
+                                  |Command_5|
+                                  |Command_6|
+                                  |Command_7|
+                                  |Command_8|
+
+		Mappings...............|jsnippets-Mappings|
+		                              |Mappings_0|
+                                  |Mappings_1|
+                                  |Mappings_2|
+                                  |Mappings_3|
+                                  |Mappings_4|
+                                  |Mappings_5|
+                                  |Mappings_6|
+                                  |Mappings_7|
+                                  |Mappings_8|
+
+		Licence................|jsnippets-Licence|
+
+==============================================================================
+MENU						    *jsnippets-menu*
+
+This plug-in is mapped into Menu Bar -> Plugin -> Snippets.
+
+==============================================================================
+COMMANDS						 *jsnippets-Commands*
+
+		                                  |Commands_0|
+                                      |Commands_1|
+                                      |Commands_2|
+                                      |Commands_3|
+                                      |Commands_4|
+                                      |Commands_5|
+                                      |Commands_6|
+                                      |Commands_7|
+                                      |Commands_8|
+
+                                                                    *Commands_0*
+  o  Commands 0 :-  AddSnippet
+               AddSnippet -- adds new snippet that contain a range of lines
+                                                                    *Commands_1*
+  o  Commands 1 :-  EditSnippet
+               EditSnippet -- edits a snippet in a new tab
+                                                                    *Commands_2*
+  o  Commands 2 :-  EditSnippet
+               EditSnippet -- edits a snippet in a new tab
+                                                                    *Commands_3*
+  o  Commands 3 :-  DeleteSnippet
+               DeleteSnippet -- deletes a snippet (with confirmation)
+                                                                    *Commands_4*
+  o  Commands 4 :-  InsertSnippet
+               InsertSnippet -- inserts a snippet before the current line
+                                                                    *Commands_5*
+  o  Commands 5 :-  DeleteSnippet
+               DeleteSnippet -- deletes a snippet (with confirmation)
+                                                                    *Commands_6*
+  o  Commands 6 :-  AppendSnippet
+               AppendSnippet -- inserts a snippet after the current line
+                                                                    *Commands_7*
+  o  Commands 7 :-  DeleteSnippet
+               DeleteSnippet -- deletes a snippet (with confirmation)
+                                                                    *Commands_8*
+  o  Commands 8 :-  ListSnippets
+               ListSnippets -- lists snippets
+
+==============================================================================
+MAPPINGS						 *jsnippets-Mappings*
+
+		                                  |Mappings_0|
+                                      |Mappings_1|
+                                      |Mappings_2|
+                                      |Mappings_3|
+                                      |Mappings_4|
+                                      |Mappings_5|
+                                      |Mappings_6|
+                                      |Mappings_7|
+                                      |Mappings_8|
+
+MAPPINGS (<leader> is set to '\', by default)
+                                                                    *Mappings_0*
+  o  Mappings 0 :-  AddSnippet
+               <leader>jsa -- AddSnippet with current buffer (normal mode)
+               AddSnippet -- adds new snippet that contain a range of lines
+                                                                    *Mappings_1*
+  o  Mappings 1 :-  AddSnippet
+               <leader>jsa -- AddSnippet with range of lines (visual mode)
+               AddSnippet -- adds new snippet that contain a range
+                             of lines (visual mode)
+                                                                    *Mappings_2*
+  o  Mappings 2 :-  EditSnippet
+               <leader>jse -- EditSnippet
+               EditSnippet -- edits a snippet in a new tab
+                                                                    *Mappings_3*
+  o  Mappings 3 :-  DeleteSnippet
+               <leader>jsd -- DeleteSnippet
+               DeleteSnippet -- deletes a snippet (with confirmation)
+                                                                    *Mappings_4*
+  o  Mappings 4 :-  AppendSnippet
+               <leader>jsp -- AppendSnippet
+               AppendSnippet -- inserts a snippet after the current line
+                                                                    *Mappings_5*
+  o  Mappings 5 :-  InsertSnippet
+               <leader>jsP -- InsertSnippet
+               InsertSnippet -- inserts a snippet before the current line
+                                                                    *Mappings_6*
+  o  Mappings 6 :-  ListSnippets
+               <leader>jsl -- ListSnippets
+               ListSnippets -- lists snippets
+
+==============================================================================
+JSNIPPETS LICENCE                            *jsnippets-Licence*
+
+See here:
+https://www.vim.org/scripts/script.php?script_id=2152
+
+==============================================================================
+ vim:ts=8 sw=8 noexpandtab tw=78 ft=help:

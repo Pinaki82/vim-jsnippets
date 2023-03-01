@@ -12,6 +12,19 @@ utility
 
 Simple utility for managing snippets of text within vim. Users can add, edit, and delete snippets within vim. Command completion is supported in all places that make sense. A menu is also added at "Plugin/Snippets".
 
+
+### Install Details:
+
+Place the script in ~/.vim/plugin & place the text doc in ~/.vim/doc and restart vim.
+
+OR
+
+With vim-plug:
+
+`Plug 'https://github.com/Pinaki82/vim-jsnippets.git'`
+
+`:PlugInstall`
+
 ## COMMANDS
 
 AddSnippet -- adds new snippet that contain a range of lines
