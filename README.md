@@ -15,15 +15,19 @@ Simple utility for managing snippets of text within vim. Users can add, edit, an
 
 ### Install Details:
 
-Place the script in ~/.vim/plugin & place the text doc in ~/.vim/doc. Restart vim.
+Place the script in ~/.vim/plugin & place the text doc in ~/.vim/doc. `:helptags ALL`. Restart vim.
 
 OR
 
-With vim-plug:
+With [vim-plug](https://github.com/junegunn/vim-plug.git):
 
 `Plug 'https://github.com/Pinaki82/vim-jsnippets.git'`
 
 `:PlugInstall`
+
+Help:
+
+`:h jsnippets`
 
 ## COMMANDS
 
