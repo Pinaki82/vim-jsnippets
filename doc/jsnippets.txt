@@ -19,6 +19,13 @@ With vim-plug:
 Plug 'https://github.com/Pinaki82/vim-jsnippets.git'
 :PlugInstall
 
+Create a directory $HOME/vimfiles/snippets.
+%USERPROFILE%\PortableApps\gVimPortable\Data\settings\vimfiles\snippets
+%USERPROFILE%\vimfiles\snippets
+~/vimfiles/snippets
+
+Create separate sub-directories for different file types (c, cpp etc.).
+
 			*jsnippets*      *jsnippets-plugin*
 	Contents:
 

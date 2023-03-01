@@ -55,4 +55,14 @@ ListSnippets -- lists snippets
 
 `<leader>jsl` -- ListSnippets
 
+Create a directory $HOME/vimfiles/snippets. Create separate sub-directories for different file types (c, cpp etc.).
+
+For example:
+
+`%USERPROFILE%\PortableApps\gVimPortable\Data\settings\vimfiles\snippets`
+
+`%USERPROFILE%\vimfiles\snippets`
+
+`~/vimfiles/snippets`
+
 Licence: https://www.vim.org/scripts/script.php?script_id=2152
