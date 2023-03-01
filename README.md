@@ -39,7 +39,7 @@ AppendSnippet -- inserts a snippet after the current line
 
 ListSnippets -- lists snippets
 
-# MAPPINGS (<leader> is set to '\', by default)
+# MAPPINGS (`<leader>` is set to `\`, by default)
 
 `<leader>jsa` -- AddSnippet with current buffer (normal mode)
 
