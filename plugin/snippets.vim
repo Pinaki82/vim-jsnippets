@@ -70,13 +70,13 @@ command -bar EditSnippet   :call s:EditSnippet()
 command -bar ListSnippets  :call s:ListSnippets()
 command -bar DeleteSnippet :call s:DeleteSnippet()
 
-vnoremenu <script> &Plugin.&Snippets.&Add    <SID>AddSnippet
-nnoremenu <script> &Plugin.&Snippets.&Add    <SID>AddSnippet
-nnoremenu <script> &Plugin.&Snippets.&Edit   <SID>EditSnippet
-nnoremenu <script> &Plugin.&Snippets.&Delete <SID>DeleteSnippet
-nnoremenu <script> &Plugin.&Snippets.&List   <SID>ListSnippets
-nnoremenu <script> &Plugin.&Snippets.&Insert <SID>InsertSnippet
-nnoremenu <script> &Plugin.&Snippets.&Append <SID>AppendSnippet
+vnoremenu <script> &Plugin.&Snippets.&Add\ \*collect*\ \ \ \|\ \<Leader>jsa\ (:AddSnippet) <SID>AddSnippet
+nnoremenu <script> &Plugin.&Snippets.&Add\ \*collect*\ \ \ \|\ \<Leader>jsa\ (:AddSnippet) <SID>AddSnippet
+nnoremenu <script> &Plugin.&Snippets.&Edit\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \|\ \<Leader>jse\ (:EditSnippet) <SID>EditSnippet
+nnoremenu <script> &Plugin.&Snippets.&Delete\ \ \ \ \ \ \ \ \ \ \ \ \ \ \|\ \<Leader>jsd\ (:DeleteSnippet) <SID>DeleteSnippet
+nnoremenu <script> &Plugin.&Snippets.&List\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \|\ \<Leader>jsl\ (:ListSnippets) <SID>ListSnippets
+nnoremenu <script> &Plugin.&Snippets.&Insert\ \*before*\ \|\ \<Leader>jsP\ (:InsertSnippet) <SID>InsertSnippet
+nnoremenu <script> &Plugin.&Snippets.&Append\ \*after*\ \|\ \<Leader>jsp\ (:AppendSnippet) <SID>AppendSnippet
 "}}}
 
 function s:SID() "{{{1
